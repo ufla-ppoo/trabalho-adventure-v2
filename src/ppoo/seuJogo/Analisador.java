@@ -1,6 +1,5 @@
 package ppoo.seuJogo;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
