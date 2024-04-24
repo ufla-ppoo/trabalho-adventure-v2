@@ -1,5 +1,5 @@
 package ppoo.seuJogo;
-    
+
 public enum Direcao {
     NORTE("norte"),
     SUL("sul"),
@@ -7,7 +7,7 @@ public enum Direcao {
     OESTE("oeste"),
     BAIXO("baixo"),
     CIMA("cima"),
-    DESCONHECIDA("?"); // usada para direções inválidas
+    DESCONHECIDA("?"); // usada quando a direção é inválida
 
     // Atributo string com a representação do enumerador como String.
     private String direcaoString;
@@ -23,7 +23,7 @@ public enum Direcao {
         return this.direcaoString;
     }
 
-    //  Método estático que, dada uma String, retorna o enumerador
+    // Método estático que, dada uma String, retorna o enumerador
     public static Direcao pelaString(String direcao) {
         for (Direcao d : Direcao.values()) {
             if (d.direcaoString.equals(direcao)) {

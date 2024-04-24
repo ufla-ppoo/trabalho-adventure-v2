@@ -7,29 +7,30 @@ package ppoo.seuJogo;
  */
 
 public enum PalavraDeComando {
-	// Um valor de cada palavra de comando
-	// juntamente com sua string correspondente na interface com o usuário.
-	IR("ir"), 
-	SAIR("sair"), 
-	AJUDA("ajuda"), 
-	DESCONHECIDA("?"),
-	OBSERVAR("observar");
+    // Um valor de cada palavra de comando
+    // juntamente com sua string correspondente na interface com o usuário.
+    IR("ir"),
+    SAIR("sair"),
+    AJUDA("ajuda"),
+    DESCONHECIDA("?"),
+    OBSERVAR("observar");
 
-	// Palavra de comando
-	private String palavraDeComando;
+    // Palavra de comando
+    private String palavraDeComando;
 
-	/**
-	* Inicializa com a palavra de comando correspondente
-	* @param palavraDeComando a palavra de comando
-	*/
-	private PalavraDeComando(String palavraDeComando) {
-		this.palavraDeComando = palavraDeComando;
-	}
+    /**
+     * Inicializa com a palavra de comando correspondente
+     * 
+     * @param palavraDeComando a palavra de comando
+     */
+    private PalavraDeComando(String palavraDeComando) {
+        this.palavraDeComando = palavraDeComando;
+    }
 
-	/**
-	* @return A palavra de comando como uma string
-	*/
-	public String toString() {
-		return palavraDeComando;
-	}
+    /**
+     * @return A palavra de comando como uma string
+     */
+    public String toString() {
+        return palavraDeComando;
+    }
 }

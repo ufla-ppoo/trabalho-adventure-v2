@@ -5,29 +5,30 @@ import java.util.HashMap;
 /**
  * Classe Ambiente - um ambiente em um jogo adventure.
  *
- * Esta classe é parte da aplicação "World of Zuul".
- * "World of Zuul" é um jogo de aventura muito simples, baseado em texto.  
+ * Esta classe é parte da aplicação "World of Zuul". "World of Zuul" é um jogo
+ * de aventura muito simples, baseado em texto.
  *
- * Um "Ambiente" representa uma localização no cenário do jogo. Ele é conectado aos 
- * outros ambientes através de saídas. As saídas são nomeadas como norte, sul, leste 
- * e oeste. Para cada direção, o ambiente guarda uma referência para o ambiente vizinho, 
- * ou null se não há saída naquela direção.
+ * Um "Ambiente" representa uma localização no cenário do jogo. Ele é conectado
+ * aos outros ambientes através de saídas. As saídas são nomeadas como norte,
+ * sul, leste e oeste. Para cada direção, o ambiente guarda uma referência para
+ * o ambiente vizinho, ou null se não há saída naquela direção.
  * 
- * @author  Michael Kölling and David J. Barnes (traduzido e adaptado por Julio César Alves)
+ * @author Michael Kölling and David J. Barnes (traduzido e adaptado por Julio
+ *         César Alves)
  */
-public class Ambiente  {
+public class Ambiente {
     // descrição do ambiente
     private String descricao;
     // ambientes vizinhos de acordo com a direção
     private HashMap<Direcao, Ambiente> saidas;
 
     /**
-     * Cria um ambiente com a "descricao" passada. Inicialmente, ele não tem saidas. 
+     * Cria um ambiente com a "descricao" passada. Inicialmente, ele não tem saidas.
      * "descricao" eh algo como "uma cozinha" ou "um jardim aberto".
      * 
      * @param descricao A descrição do ambiente.
      */
-    public Ambiente(String descricao)  {
+    public Ambiente(String descricao) {
         this.descricao = descricao;
         saidas = new HashMap<>();
     }
@@ -36,10 +37,10 @@ public class Ambiente  {
      * Define uma saída do ambiente.
      * 
      * @param direcao A direção daquela saída.
-     * @param saida O ambiente para o qual a direção leva.
+     * @param saida   O ambiente para o qual a direção leva.
      */
     public void ajustarSaida(Direcao direcao, Ambiente saida) {
-        saidas.put(direcao, saida);    
+        saidas.put(direcao, saida);
     }
 
     /**

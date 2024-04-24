@@ -1,21 +1,22 @@
 package ppoo.seuJogo;
 
 /**
- * Esta classe é parte da aplicação "World of Zuul".
- * "World of Zuul" é um jogo de aventura muito simples, baseado em texto.  
+ * Esta classe é parte da aplicação "World of Zuul". "World of Zuul" é um jogo
+ * de aventura muito simples, baseado em texto.
  *
- * Essa classe guarda informações sobre um comando que foi digitado pelo usuário.
- * Um comando atualmente consiste em duas strings: uma palavra de comando e uma 
- * segunda palavra (por exemplo, se o campo for "pegar mapa", entao as duas strings
- * obviamente serao "pegar" e "mapa").
+ * Essa classe guarda informações sobre um comando que foi digitado pelo
+ * usuário. Um comando atualmente consiste em duas strings: uma palavra de
+ * comando e uma segunda palavra (por exemplo, se o campo for "pegar mapa",
+ * entao as duas strings obviamente serao "pegar" e "mapa").
  * 
- * Isso é usado assim: comandos já estão validados como comandos válidos. Se o 
- * usuário entrou um comando inválido (uma palavra que não é conhecida) então a 
+ * Isso é usado assim: comandos já estão validados como comandos válidos. Se o
+ * usuário entrou um comando inválido (uma palavra que não é conhecida) então a
  * palavra de comando é <null>.
  *
  * Se o comando tem só uma palavra, a segunda palavra é <null>.
  * 
- * @author  Michael Kölling and David J. Barnes (traduzido e adaptado por Julio César Alves)
+ * @author Michael Kölling and David J. Barnes (traduzido e adaptado por Julio
+ *         César Alves)
  */
 
 public class Comando {
@@ -25,10 +26,12 @@ public class Comando {
     private String segundaPalavra;
 
     /**
-     * Cria um objeto comando. Primeira e segunda palavra devem ser fornecidas, mas 
+     * Cria um objeto comando. Primeira e segunda palavra devem ser fornecidas, mas
      * a segunda palavra ppde ser null.
+     * 
      * @param primeiraPalavra Objeto da primeira palavra do comando.
-     * @param segundaPalavra A segunda palavra do comando. Null se não existir segunda palavra
+     * @param segundaPalavra  A segunda palavra do comando. Null se não existir
+     *                        segunda palavra
      */
     public Comando(PalavraDeComando primeiraPalavra, String segundaPalavra) {
         palavraDeComando = primeiraPalavra;
@@ -36,8 +39,9 @@ public class Comando {
     }
 
     /**
-     * Retorna a palavra de comando (a primeira palavra) deste comando.
-     * Se o comando não foi entendido, o resultado eh null.
+     * Retorna a palavra de comando (a primeira palavra) deste comando. Se o comando
+     * não foi entendido, o resultado eh null.
+     * 
      * @return A palavra de comando.
      */
     public PalavraDeComando getPalavraDeComando() {
@@ -45,7 +49,8 @@ public class Comando {
     }
 
     /**
-     * @return A segunda palavra deste comando. Retorna null se não existe segunda palavra.
+     * @return A segunda palavra deste comando. Retorna null se não existe segunda
+     *         palavra.
      */
     public String getSegundaPalavra() {
         return segundaPalavra;
@@ -65,4 +70,3 @@ public class Comando {
         return (segundaPalavra != null);
     }
 }
-
