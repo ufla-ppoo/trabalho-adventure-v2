@@ -1,18 +1,62 @@
-## Getting Started
+# Trabalho de GAC106-PPOO - Jogo Adventure
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Veja as instruções do trabalho no documento disponibilizado no Campus Virtual
 
-## Folder Structure
+## Informações sobre o jogo
 
-The workspace contains two folders by default, where:
+Nome do jogo:
+> digite aqui
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Integrantes do grupo:
+> digite aqui
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Descrição breve sobre o tema jogo:
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+> Explique os tipos de itens e para que são usados
 
-## Dependency Management
+> Explique os tipos de ambientes e suas funções específicas
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+> [Na entrega final] Explique os personagens (NPCs) existentes e suas funções
+
+> [Na entrega final] Explique os inimigos existentes
+
+## Checklist dos Requisitos de jogabilidade
+
+Para cada história abaixo escreva à frente (sim ou não) se ela foi implementada **de acordo com os critérios de aceitação**.
+
+- História 1: 
+- História 2:
+- História 3:
+- História 4:
+- História 5:
+- História 6:
+- História 7:
+- História 8:
+- História 9:
+- História 10:
+- História 11:
+- História 12:
+- História 13:
+- História 14:
+
+## Checklist dos Requisitos de OO
+
+Para cada requisito de OO abaixo escreva à frente (sim ou não) se ele foi utilizado adequadamente:
+
+- Modelagem de classes:
+- Encapsulamento:
+- Relacionamentos de composição, agregação e associação:
+- Design de classes (acplamento, coesão, design baseado em responsabilidade, etc.):
+- Divisão de camadas:
+- Polimorfismo:
+- Tratamento de exceções:
+
+## Autoavaliação sobre a implementação realizada
+
+Qual nota vocês dariam para o trabalho como um todo? Justifique.
+
+> Escreva a resposta aqui
+
+Qual foi a contribuição de cada integrante do grupo?
+
+> Escreva a resposta aqui
