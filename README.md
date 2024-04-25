@@ -5,24 +5,38 @@ Veja as instruções do trabalho no documento disponibilizado no Campus Virtual
 ## Informações sobre o jogo
 
 Nome do jogo:
+
 > digite aqui
 
 Integrantes do grupo:
+
 > digite aqui
 
 Descrição breve sobre o tema jogo:
 
-> Explique os tipos de itens e para que são usados
+Quem é o jogador/personagem principal do jogo e qual é seu objetivo?
 
-> Explique os tipos de ambientes e suas funções específicas
+> digite aqui
 
-> [Na entrega final] Explique os personagens (NPCs) existentes e suas funções
+Quais são os tipos de itens e para que cada tipo é usado?
 
-> [Na entrega final] Explique os inimigos existentes
+> digite aqui
+
+Quais são os tipos de ambientes e quais são suas funções específicas?
+
+> digite aqui
+
+(Na entrega final) Quais são os personagens (NPCs) do jogo e o que eles fazem?
+
+> digite aqui
+
+(Na entrega final) Quas são os inimigos do jogo e o que eles fazem?
+
+> digite aqui
 
 ## Checklist dos Requisitos de jogabilidade
 
-Para cada história abaixo escreva à frente (sim ou não) se ela foi implementada **de acordo com os critérios de aceitação**.
+Para cada história abaixo escreva sim ou não, indincando se ela foi implementada **de acordo com os critérios de aceitação**.
 
 - História 1: 
 - História 2:
@@ -41,7 +55,7 @@ Para cada história abaixo escreva à frente (sim ou não) se ela foi implementa
 
 ## Checklist dos Requisitos de OO
 
-Para cada requisito de OO abaixo escreva à frente (sim ou não) se ele foi utilizado adequadamente:
+Para cada requisito de OO abaixo escreva sim ou não, indicando se ele foi utilizado adequadamente:
 
 - Modelagem de classes:
 - Encapsulamento:
