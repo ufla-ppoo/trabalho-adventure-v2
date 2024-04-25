@@ -1,6 +1,8 @@
 # Trabalho de GAC106-PPOO - Jogo Adventure
 
-Veja as instruções do trabalho no documento disponibilizado no Campus Virtual
+Veja as instruções do trabalho no documento disponibilizado no Campus Virtual.
+
+As informações abaixo devem ser preenchidas na primeira entrega e depois devem ser alteradas (no que for necessário) na entrega final.
 
 ## Informações sobre o jogo
 
@@ -60,14 +62,19 @@ Para cada requisito de OO abaixo escreva sim ou não, indicando se ele foi utili
 - Modelagem de classes:
 - Encapsulamento:
 - Relacionamentos de composição, agregação e associação:
-- Design de classes (acplamento, coesão, design baseado em responsabilidade, etc.):
+- Design de classes (acoplamento, coesão, design baseado em responsabilidade, etc.):
 - Divisão de camadas:
 - Polimorfismo:
 - Tratamento de exceções:
 
+Foi implementado algum Design Pattern?
+- Em caso afirmativo, especifique qual padrão foi utilizado e explique como a utilização do padrão facilita a evolução do jogo.
+
+> Escreva a resposta aqui
+
 ## Autoavaliação sobre a implementação realizada
 
-Qual nota vocês dariam para o trabalho como um todo? Justifique.
+Qual nota vocês dariam para o trabalho entregue? Justifique.
 
 > Escreva a resposta aqui
 
